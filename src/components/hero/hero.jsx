@@ -45,14 +45,7 @@ export function Hero() {
                     <h1 id='headline'>
                     {headlines[headlineIndex]}</h1>
                 </div>
-              {/*   <iframe
-                    id="panda-4bac0538-2b4d-4d9b-b6c6-2279e8ada3e0"
-                    src="https://player-vz-3402d372-721.tv.pandavideo.com.br/embed/?v=4bac0538-2b4d-4d9b-b6c6-2279e8ada3e0"
-                    style={{ border: 'none' }}
-                    allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
-                    allowFullScreen={true}
-                    className="vslVideo"
-                /> */}
+                <iframe className='vslVideo' width="560" height="315" src="https://www.youtube.com/embed/aClEXSTOIVk?si=sTF3MC6zQxBPDC7J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </header>
     )
